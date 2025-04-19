@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-name 'cm Emergency Services'
+name 'Mythic Emergency Services'
 author '[Alzar]'
 
 shared_scripts {
@@ -10,7 +10,7 @@ shared_scripts {
 }
 
 client_scripts {
-	'@cm-pwnzor/client/check.lua',
+	'@mythic-pwnzor/client/check.lua',
     '@mythic-base/components/cl_error.lua',
 	'client/**/*.lua',
 }
