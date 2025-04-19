@@ -5,10 +5,6 @@ lua54 'yes'
 name 'Mythic Emergency Services'
 author '[Alzar]'
 
-shared_scripts {
-    '@ox_lib/init.lua',
-}
-
 client_scripts {
 	'@mythic-pwnzor/client/check.lua',
     '@mythic-base/components/cl_error.lua',
