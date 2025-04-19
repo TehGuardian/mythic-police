@@ -1,0 +1,17 @@
+-- Add to tools.lua in Inventory
+	{
+		name = "det_cord",
+		label = "Det. Cord",
+		qualification = "PD_DETCOORDS",
+		price = 250,
+		isUsable = true,
+		isRemoved = true,
+		isStackable = 10,
+		isDestroyed = true,
+		durability = (60 * 60 * 24),
+		type = 3,
+		rarity = 2,
+		closeUi = true,
+		metalic = false,
+		weight = 0.25,
+	},
